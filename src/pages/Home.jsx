@@ -149,8 +149,8 @@ function Home () {
                     <div className="flex flex-col justify-between gap-1 text-base w-11/12 md:w-11/12 pb-4 sm:w-9/12 h-90 sm:z-21 leading-normal">
                     <p 
                     >
-                        I don’t just write code — I create products that solve problems and delight users. 
-                        Whether it’s a sleek web app, a scalable mobile app solution, or the next big AI-powered idea, 
+                        I don't just write code — I create products that solve problems and delight users. 
+                        Whether it's a sleek web app, a scalable mobile app solution, or the next big AI-powered idea, 
                         I bring vision to life with clean, reliable, and future-proof development.
                     </p>
                     <p>
@@ -202,14 +202,14 @@ function Home () {
             <div className="my-20">
                 <div className="aspect-video w-full relative pb-20 ">
                     <iframe 
-                        src="https://www.youtube.com/embed/H3IdQYqngbs?si=3MpM8oTsmzTGswHf" 
+                        src="https://www.youtube.com/embed/JjuN6canRnQ?si=196WCW89qj5zw1uc" 
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" 
                         allowfullscreen
                         className="absolute top-0 left-0 w-full h-full"
-                    >
+                        >
                     </iframe>
                 </div>
             </div>
