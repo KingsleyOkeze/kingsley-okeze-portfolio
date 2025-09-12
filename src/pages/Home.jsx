@@ -368,7 +368,7 @@ function Home () {
                         <a href="https://github.com/KingsleyOkeze" target="_blank">
                             <FaGithub className="text-xl cursor-pointer"/>
                         </a>
-                        <a href="https://x.com/OkezeKingsley" target="_blank">
+                        <a href="https://x.com/KingsleyTheDev" target="_blank">
                             <FaTwitter className="text-xl cursor-pointer"/>
                         </a>
                         <a href="https://wa.me/2349026627307" target="_blank">
