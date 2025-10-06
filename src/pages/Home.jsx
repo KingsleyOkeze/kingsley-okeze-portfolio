@@ -158,7 +158,7 @@ function Home() {
                 </p>
                 <div className="flex flex-col justify-between gap-1 text-base w-11/12 md:w-11/12 pb-4 sm:w-9/12 h-90 sm:z-21 leading-normal">
                     <p>
-                    I don't just write code — I create products that solve problems and delight users. Whether it's a sleek web
+                    I don't just write code, I create products that solve problems and delight users. Whether it's a sleek web
                     app, a scalable mobile app solution, or the next big AI-powered idea, I bring vision to life with clean,
                     reliable, and future-proof development.
                     </p>
@@ -191,7 +191,7 @@ function Home() {
                 <p className="w-12/12 sm:w-6/12 text-sm leading-normal sm:text-base">
                 I combine technical expertise with a builder’s mindset. I don’t just deliver features, I deliver outcomes. My
                 code is scalable, my designs are user-focused, and my approach is all about helping businesses grow. If you’re
-                looking for someone who takes ownership, adapts fast, and loves turning ideas into polished products — that’s me.
+                looking for someone who takes ownership, adapts fast, and loves turning ideas into polished products - that’s me.
                 Shoot me a message and let’s build something amazing together.
                 </p>
             </div>
@@ -227,7 +227,7 @@ function Home() {
                 </div>
                 <h2 className="font-medium text-2xl mt-7 mb-2">Web Development</h2>
                 <p className="text-sm leading-normal sm:text-base">
-                    From pixel-perfect frontends to scalable backends, I build web applications that don’t just look good — they
+                    From pixel-perfect frontends to scalable backends, I build web applications that don’t just look good, they
                     perform flawlessly. Clean, maintainable, and optimized for growth.
                 </p>
                 </div>
