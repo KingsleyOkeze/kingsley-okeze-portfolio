@@ -47,7 +47,7 @@ export default function Portfolio() {
       id: 1,
       title: "E-Commerce Platform",
       company: "DMAN OFFICIALS",
-      category: "Full-Stack Development",
+      category: "E-Commerce",
       image: "https://res.cloudinary.com/dvgqi0ajq/image/upload/v1765382897/xyrzx7f6s5r9nwauxmpx.png",
       description: `Developed a full-stack, 𝘂𝘀𝗲𝗿-𝗰𝗲𝗻𝘁𝗿𝗶𝗰 𝗲-𝗰𝗼𝗺𝗺𝗲𝗿𝗰𝗲 𝗽𝗹𝗮𝘁𝗳𝗼𝗿𝗺 for a growing online 
                     brand, focusing on creating a 𝘀𝗲𝗮𝗺𝗹𝗲𝘀𝘀, 𝘀𝗲𝗰𝘂𝗿𝗲, 𝗮𝗻𝗱 𝗺𝗼𝗯𝗶𝗹𝗲-𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝘃𝗲 𝘀𝗵𝗼𝗽𝗽𝗶𝗻𝗴 
@@ -60,37 +60,45 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      title: "Healthcare Management System",
-      company: "MediTech Solutions",
-      category: "Healthcare Tech",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
-      description: "An innovative platform designed for healthcare professionals. Streamlines patient management, appointment scheduling, and electronic health records with a focus on data security and HIPAA compliance.",
-      features: ["Patient Records Management", "Appointment Scheduling", "Billing System", "Telemedicine Integration"],
-      tech: ["React.js", "TypeScript", "Firebase", "Google Cloud", "Material-UI"],
-      link: "#"
+      title: "E-Commerce Admin Dashboard",
+      company: "DMAN OFFICIALS",
+      category: "E-Commerce",
+      image: "https://res.cloudinary.com/dvgqi0ajq/image/upload/v1765455702/qrhs8d5ak7hwdxrmz4pe.png",
+      description: `
+                    Developed a full-stack admin panel for a growing online brand, giving the store owner 
+                    𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗼𝘃𝗲𝗿 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀. Focused on a 𝗵𝗶𝗴𝗵-𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲, 𝗶𝗻𝘁𝘂𝗶𝘁𝗶𝘃𝗲 𝗽𝗹𝗮𝘁𝗳𝗼𝗿𝗺 that 
+                    streamlines workflows and boosts efficiency. Built the internal admin 
+                    dashboard powering product management, real-time order tracking, inventory oversight, 
+                    and automated status updates; cutting manual workload by 40% and improving processing 
+                    speed 3×. The dashboard quickly became the operational backbone, enabling faster decisions 
+                    and smoother fulfilment.
+                  `,
+      features: ["Order & Inventory Management", "Product & Catalog Management", "Customer Relation Management", "Performance & Usability"],
+      tech: ["React.js", "Node.js", "MongoDB", "Redis" ],
+      link: "https://dman-officials-admin-panel.vercel.app/admin"
     },
-    {
-      id: 3,
-      title: "Financial Analytics Dashboard",
-      company: "FinanceHub",
-      category: "Fintech",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-      description: "A powerful analytics platform for financial professionals. Provides real-time market data, portfolio tracking, and predictive insights to help users make informed investment decisions.",
-      features: ["Real-time Market Data", "Portfolio Tracking", "Predictive Analytics", "Custom Reports"],
-      tech: ["Next.js", "D3.js", "PostgreSQL", "REST APIs", "Tailwind CSS"],
-      link: "#"
-    },
-    {
-      id: 4,
-      title: "Social Network App",
-      company: "ConnectHub",
-      category: "Mobile Development",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
-      description: "A modern social networking platform built for communities. Features real-time messaging, content sharing, and community building tools with a focus on user engagement.",
-      features: ["Real-time Messaging", "Media Sharing", "User Profiles", "Community Groups"],
-      tech: ["React Native", "Firebase", "Redux", "Node.js", "Socket.io"],
-      link: "#"
-    }
+    // {
+    //   id: 3,
+    //   title: "Financial Analytics Dashboard",
+    //   company: "FinanceHub",
+    //   category: "Fintech",
+    //   image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    //   description: "A powerful analytics platform for financial professionals. Provides real-time market data, portfolio tracking, and predictive insights to help users make informed investment decisions.",
+    //   features: ["Real-time Market Data", "Portfolio Tracking", "Predictive Analytics", "Custom Reports"],
+    //   tech: ["Next.js", "D3.js", "PostgreSQL", "REST APIs", "Tailwind CSS"],
+    //   link: "#"
+    // },
+    // {
+    //   id: 4,
+    //   title: "Social Network App",
+    //   company: "ConnectHub",
+    //   category: "Mobile Development",
+    //   image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
+    //   description: "A modern social networking platform built for communities. Features real-time messaging, content sharing, and community building tools with a focus on user engagement.",
+    //   features: ["Real-time Messaging", "Media Sharing", "User Profiles", "Community Groups"],
+    //   tech: ["React Native", "Firebase", "Redux", "Node.js", "Socket.io"],
+    //   link: "#"
+    // }
   ];
 
   const skills = [
@@ -325,12 +333,12 @@ export default function Portfolio() {
             <p className={`text-lg font-light animate-in fade-in-up delay-100 ${
               isDarkMode ? 'text-slate-400' : 'text-slate-600'
             }`}>
-              Hello World
+              I am a
             </p>
             <h1 className={`text-5xl md:text-7xl font-bold leading-tight animate-in fade-in-up delay-200 ${
               isDarkMode ? 'text-white' : 'text-slate-900'
             }`}>
-              I am Kingsley.<br />
+              Certified.<br />
               <span className={isDarkMode ? 'text-slate-400' : 'text-slate-600'}>FullStack Developer</span>
             </h1>
             
@@ -391,7 +399,7 @@ export default function Portfolio() {
               </p>
               <p className={`leading-relaxed ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>
                 Whether it’s an MVP or a full platform, I turn ideas into products that feel polished 
-                from day one — the kind users enjoy and founders trust. I don’t just write code; I 
+                from day one, the kind users enjoy and founders trust. I don’t just write code; I 
                 create solutions that eliminate friction, solve real problems, and move businesses forward.
               </p>
 
@@ -602,7 +610,11 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 px-6 bg-slate-900 text-white">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-slate-400">© Copyright Kingsley Okeze. Design inspired by modern web practices.</p>
+          <p 
+            className="text-slate-400"
+          >
+            © Copyright Kingsley Okeze. Made to demonstrate my approach: practical, thoughtful, and result driven.
+          </p>
         </div>
       </footer>
 
