@@ -476,7 +476,7 @@ function Portfolio() {
   </div>
 
   {/* Scroll indicator */}
-  <a href="#about" className={`absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 ${
+  <a href="#about" className={`absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 z-50 ${
     isDarkMode ? 'text-slate-400 hover:text-white' : 'text-slate-600 hover:text-slate-900'
   } transition-colors duration-300`} style={{ animation: 'slideUp 0.8s ease-out 0.7s forwards' }}>
     <div className="flex flex-col items-center gap-2">
@@ -615,7 +615,7 @@ function Portfolio() {
           <div className={`text-center mb-16 ${isVisible('works') ? 'animate-in fade-in-up' : 'invisible-initial'}`}>
             <h2 className={`text-4xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Recent Works</h2>
             <p className={`text-lg ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
-              Here are some of my favorite projects I have built recently. Feel free to check them out.
+              Here are some of my favorite projects I have built. Feel free to check them out.
             </p>
           </div>
 
