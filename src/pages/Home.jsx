@@ -104,7 +104,8 @@ function Portfolio() {
   const skills = [
     "JavaScript", "React.js", "React Native", "TypeScript", "Node.js", "Express.js",
     "MongoDB", "PostgreSQL", "Firebase", "Git & GitHub", "Tailwind CSS", "Python",
-    "Langchain", "Docker", "Google Cloud Platform", "AWS", "Vercel", "REST APIs", "Redis"
+    "Langchain", "Docker", "Google Cloud Platform", "Superbase", "Vercel", "REST APIs", "Redis"
+
   ];
 
   const experience = [
@@ -509,8 +510,8 @@ function Portfolio() {
                 I’m Kingsley Okeze, a Full-Stack & React Native Engineer who helps startups turn ideas into fast, 
                 scalable, production-ready digital products. I’ve delivered 15+ apps and admin dashboards, 
                 helping businesses cut manual operations by 50%, improve user experience, and ship features 
-                faster. My focus is building high-performing mobile apps, MERN-stack platforms, and 
-                intelligent, LLM-powered systems that deliver measurable business impact. I design clean, 
+                faster. My focus is building high-performing applications, MERN-stack platforms, and 
+                intelligent AI-powered systems that deliver measurable business impact. I design clean, 
                 intuitive interfaces, build reliable architectures, and ship solutions that scale 
                 effortlessly. 
               </p>
@@ -518,6 +519,8 @@ function Portfolio() {
                 Whether it’s an MVP or a full platform, I turn ideas into products that feel polished 
                 from day one, the kind users enjoy and founders trust. I don’t just write code; I 
                 create solutions that eliminate friction, solve real problems, and move businesses forward.
+                Book a call and let’s explore how I can help.
+
               </p>
 
               <div className="flex gap-4 pt-4">
