@@ -117,7 +117,7 @@ function Portfolio() {
                     enterprise-level applications for clients and customers. 
 
                     Some of the the key project we built and optimized includes: an ed-tech platform 
-                    and a WhatsApp reminder system—improving feature delivery speed by 35% and boosting 
+                    and a WhatsApp reminder system; improving feature delivery speed by 35% and boosting 
                     user engagement by 30%. My work strengthened platform reliability, streamlined 
                     internal workflows, and helped the team scale products faster with fewer operational 
                     bottlenecks.
@@ -133,7 +133,7 @@ function Portfolio() {
                     I built their first online shopping platform, delivering a fast, secure, mobile-optimized 
                     experience that increased order completion by 25% and gave customers a seamless way to 
                     browse and buy. I then engineered a full admin system that automated previously manual 
-                    tasks—order tracking, inventory updates, customer management, and coupon control—cutting 
+                    tasks: order tracking, inventory updates, customer management, and coupon control, cutting 
                     operational workload by 50% and eliminating errors that slowed the business down.
                     My work didn’t just put the brand online; it modernized their entire sales pipeline, 
                     improved efficiency, and positioned them to scale with a fully digital commerce workflow.
