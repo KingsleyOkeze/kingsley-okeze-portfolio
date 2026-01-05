@@ -105,6 +105,7 @@ function Portfolio() {
     "JavaScript", "React.js", "React Native", "TypeScript", "Node.js", "Express.js",
     "MongoDB", "PostgreSQL", "Firebase", "Git & GitHub", "Tailwind CSS", "Python",
     "Langchain", "Docker", "Google Cloud Platform", "Superbase", "Vercel", "REST APIs", "Redis"
+
   ];
 
   const experience = [
@@ -519,6 +520,7 @@ function Portfolio() {
                 from day one, the kind users enjoy and founders trust. I don’t just write code; I 
                 create solutions that eliminate friction, solve real problems, and move businesses forward.
                 Book a call and let’s explore how I can help.
+
               </p>
 
               <div className="flex gap-4 pt-4">
