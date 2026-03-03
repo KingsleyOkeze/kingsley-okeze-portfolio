@@ -1,12 +1,12 @@
-import Home from './pages/Home'
+import Portfolio from './pages/Portfolio';
 
 function App() {
 
-  return (
-    <div>
-      <Home />
-    </div>
-  )
+    return (
+        <div>
+            <Portfolio />
+        </div>
+    );
 }
 
-export default App
+export default App;
