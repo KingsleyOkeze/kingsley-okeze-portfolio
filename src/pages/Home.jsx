@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail, Twitter, Instagram, ExternalLink, Menu, X, Download, Calendar, ArrowDown, Smartphone } from 'lucide-react';
 import ferifyImg from '../assets/ferify.jpg';
 
-function Portfolio() {
+function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeModal, setActiveModal] = useState(null);
   const [scrollY, setScrollY] = useState(0);
@@ -790,4 +790,4 @@ function Portfolio() {
 
 
 
-export default Portfolio;
+export default Home;
