@@ -64,7 +64,7 @@ function Home() {
         "Data-Driven Route Optimization"
       ],
       tech: ["React Native", "Expo", "TypeScript", "Node.js", "MongoDB", "Socket.io", "Redis", "Google Cloud Platform"],
-      androidDownload: "#", // Placeholder for actual link
+      androidDownload: "https://drive.google.com/uc?export=download&id=1qIhdU7eMQgjeIiJmSNySFA84hvSAe0QL",
       iosDownload: "#"      // Placeholder for actual link
     },
     {
@@ -149,7 +149,7 @@ function Home() {
       period: "September 2025 - Present",
       description: `
                     Built an app that helps everyday commuters in Nigerian cities know the real-time estimated fares 
-                    between two routes so they don’t avoid feeling overcharged or cheated, especially in areas they don’t 
+                    between two routes so they can avoid feeling overcharged or cheated, especially in areas they don’t 
                     know. On top of that, it breaks down each route, showing bus stops, landmarks, and directions, plus real-time 
                     price estimates for every leg. The app processes over 1,000 submissions daily, improving fare 
                     accuracy by 85% across 100+ routes, making travel easier, more transparent, and helping even 
@@ -760,6 +760,9 @@ function Home() {
                 <div className="flex flex-wrap gap-4">
                   <a
                     href={activeModal.androidDownload}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
                     className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded hover:bg-slate-800 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
                   >
                     Download Android APK <Smartphone size={18} />
