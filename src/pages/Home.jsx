@@ -64,7 +64,7 @@ function Home() {
         "Data-Driven Route Optimization"
       ],
       tech: ["React Native", "Expo", "TypeScript", "Node.js", "MongoDB", "Socket.io", "Redis", "Google Cloud Platform"],
-      androidDownload: "https://drive.google.com/uc?export=download&id=1qIhdU7eMQgjeIiJmSNySFA84hvSAe0QL",
+      androidDownload: "https://drive.google.com/uc?export=download&id=1Vr4AZLgOj13bzVaeYBSplwS8GyFXRNbw",
       iosDownload: "#"      // Placeholder for actual link
     },
     {
