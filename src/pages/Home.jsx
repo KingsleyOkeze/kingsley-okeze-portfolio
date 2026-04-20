@@ -650,7 +650,7 @@ function Home() {
               <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Reach me at</h3>
               <a href="mailto:your.email@example.com" className={`text-lg transition-colors duration-300 ${isDarkMode ? 'text-slate-300 hover:text-white' : 'text-slate-600 hover:text-slate-900'
                 }`}>
-                kingsleyokeze3@gmail.com
+                okezekingsley3@gmail.com
               </a>
             </div>
 
