@@ -1,27 +1,172 @@
 @import "tailwindcss";
 
+/* ── Design System: "Warm Architect" ────────────────────── */
 
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
 
-@keyframes ripple {
-    0% {
-        transform: scale(1);
-        opacity: 0.6;
-    }
-    70% {
-        transform: scale(2.5);
-        opacity: 0.2;
-    }
-    100% {
-        transform: scale(3);
-        opacity: 0;
-    }
+  --color-accent: #d4915c;
+  --color-accent-hover: #e8a872;
+  --color-accent-muted: rgba(212, 145, 92, 0.15);
+
+  --color-surface: #111111;
+  --color-surface-alt: #181614;
+  --color-surface-elevated: #1f1d1a;
+  --color-surface-card: #242220;
+
+  --color-warm-white: #f5f0eb;
+  --color-warm-gray: #a39e98;
+  --color-warm-muted: #6b6560;
+  --color-warm-border: #2a2724;
+  --color-warm-border-light: #3a3734;
 }
 
-.animate-ripple {
-    animation: ripple 2.5s infinite;
-}
-
+/* ── Base ───────────────────────────────────────────────── */
 
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #111111;
+  color: #f5f0eb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(212, 145, 92, 0.3);
+  color: #f5f0eb;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2724;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4915c;
+}
+
+/* ── Animations ────────────────────────────────────────── */
+
+@keyframes heroReveal {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes gentleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+@keyframes lineGrow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 48px;
+  }
+}
+
+/* ── Animation Utilities ───────────────────────────────── */
+
+.anim-hidden {
+  opacity: 0;
+}
+
+.anim-fade-up {
+  animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-fade-left {
+  animation: fadeInLeft 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-fade-right {
+  animation: fadeInRight 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-scale-in {
+  animation: scaleIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-hero {
+  animation: heroReveal 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.delay-0   { animation-delay: 0s; }
+.delay-100 { animation-delay: 0.1s; }
+.delay-150 { animation-delay: 0.15s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+.delay-700 { animation-delay: 0.7s; }
+.delay-800 { animation-delay: 0.8s; }
